@@ -1,0 +1,72 @@
+/*ブラウザがそれぞれ持っているCSSをリセットするための記述*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px; /*高さ:50px*/
+  background-color: #ff9a4b; /*背景色： #FF9A4B*/
+}
+
+main {
+  width: 960px; /* 横幅960px */
+  margin: 50px auto; /* 上下に50px、左右にautoの外側余白 */
+  display: flex; /* Flexboxの利用 */
+}
+
+.box{
+  width: 300px;/* 横幅300px */
+  background-color: #EEEEEE;/*背景色： #EEEEEE*/
+  margin-right:30px;/* 右に30pxの外側余白 */
+  padding: 10px;/*内側余白：10px*/
+  position: relative;/*stepの基準位置を相対位置へ変更する*/
+}
+
+/*最後だけ*/
+.box:last-child{
+  margin-right: 0;/* 右に0pxの外側余白 */
+}
+
+.image1 {
+  height: 150px; /*高さ:150px*/
+  background-image: url(img/flow01.png);
+  background-size: cover; /*縦横比をいじしたまま背景領域を埋め尽くす*/
+  background-position: bottom; /*背景画像を下に配置*/
+}
+
+.image2 {
+  height: 150px; /*高さ:150px*/
+  margin: 10px 10px; /* 上下に10px、左右に10pxの外側余白 */
+  background-image: url(img/flow02.png);
+  background-size: cover; /*縦横比をいじしたまま背景領域を埋め尽くす*/
+  background-position: bottom; /*背景画像を下に配置*/
+}
+
+.image3 {
+  height: 150px; /*高さ:150px*/
+  margin: 10px 10px; /* 上下に10px、左右に10pxの外側余白 */
+  background-image: url(img/flow03.png);
+  background-size: cover; /*縦横比をいじしたまま背景領域を埋め尽くす*/
+  background-position: bottom; /*背景画像を下に配置*/y
+}
+
+.step{
+  padding: 3px;/*内側余白：3px*/
+  position: absolute;/*.boxの左上を基準に絶対位置へ指定する*/
+  top: 0;/*.boxの左上から0px下側へ移動する*/
+  left: 0;/*.boxの右上から22px左側へ移動する*/
+  background-color: #ff9a4b;/*背景色： #ff9a4b*/
+  color: #fff;/*文字色:#fff*/
+}
+
+.box-title{
+  margin: 15px 0　5px;/* 上に15px、左右に0px、下に5pxの外側余白 */
+}
+
+
+footer {
+  height: 50px; /*高さ:50px*/
+  background-color: #aaaaaa; /*背景色： #AAAAAA*/
+}
