@@ -5,11 +5,13 @@
   box-sizing: border-box;
 }
 
+/*ヘッダー*/
 header {
   height: 50px; /*高さ:50px*/
   background-color: #ff9a4b; /*背景色： #FF9A4B*/
 }
 
+/*メイン*/
 main {
   width: 960px; /* 横幅960px */
   margin: 50px auto; /* 上下に50px、左右にautoの外側余白 */
@@ -65,8 +67,11 @@ main {
   margin: 15px 0　5px;/* 上に15px、左右に0px、下に5pxの外側余白 */
 }
 
-
+/*フッター*/
 footer {
   height: 50px; /*高さ:50px*/
   background-color: #aaaaaa; /*背景色： #AAAAAA*/
+}
+
+/*レスポンシブ対応*/
 }
