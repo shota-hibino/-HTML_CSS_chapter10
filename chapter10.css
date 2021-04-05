@@ -77,17 +77,20 @@ footer {
 @media screen and (max-width:768px){
 
   main{
-    width: 90%;/*横幅:90%*/
+    width: 100%;/* 横幅100% */
+    margin: 50px auto; /* 上下に50px、左右にautoの外側余白 */
     display: block;/*Flexbox→ブロック*/
   }
 
   .box{
-    margin-bottom: 20px;/*下外側余白:20px*/
+    width: 90%;/* 横幅90% */
+    margin: 20px auto;/** 上下に20px、左右にautoの外側余白 */
   }
 
   /*最後だけ*/
   .box:last-child{
     margin-bottom: 0px;/*下外側余白:0px*/
+    margin-right: auto;/*右外側余白:auto*/
   }
 
 
