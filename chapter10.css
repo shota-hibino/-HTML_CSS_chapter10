@@ -74,4 +74,24 @@ footer {
 }
 
 /*レスポンシブ対応*/
+@media screen and (max-width:768px){
+
+  main{
+    width: 90%;/*横幅:90%*/
+    display: block;/*Flexbox→ブロック*/
+  }
+
+  .box{
+    margin-bottom: 20px;/*下外側余白:20px*/
+  }
+
+  /*最後だけ*/
+  .box:last-child{
+    margin-bottom: 0px;/*下外側余白:0px*/
+  }
+
+
+
+
+
 }
