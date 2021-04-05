@@ -75,7 +75,7 @@ footer {
 
 /*レスポンシブ対応*/
 @media screen and (max-width:768px){
-
+  /*メイン*/
   main{
     width: 100%;/* 横幅100% */
     margin: 50px auto; /* 上下に50px、左右にautoの外側余白 */
