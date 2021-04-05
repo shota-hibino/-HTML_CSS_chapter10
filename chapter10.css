@@ -64,7 +64,7 @@ main {
 }
 
 .box-title{
-  margin: 15px 0　5px;/* 上に15px、左右に0px、下に5pxの外側余白 */
+  margin: 15px 0 5px;/* 上に15px、左右に0px、下に5pxの外側余白 */
 }
 
 /*フッター*/
